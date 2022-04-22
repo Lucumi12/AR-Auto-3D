@@ -1,6 +1,6 @@
-<h1 align="center"> AR Auto</h1>
+<h1 align="center"> AR Auto 3D</h1>
 <p align="center">
-  Esta es una prueba utilizando 3D y model viewer .
+  Esta es una prueba utilizando modelos 3D y model viewer .
 </p>
 <h1></h1>
 <h2 align="center">Herramientas</h2>
@@ -17,6 +17,6 @@
 <h1></h1>
 <h2 align="center">Nota</h2>
   <p align="center">
-    Recuerde esta es un Ejemplo básico
+    Recuerde esta es un ejemplo de visualización de objetos 3D.
   </p>
 <h1></h1>
