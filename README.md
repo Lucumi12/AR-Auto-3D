@@ -17,6 +17,6 @@
 <h1></h1>
 <h2 align="center">Nota</h2>
   <p align="center">
-    Recuerde esta es un ejemplo de visualización de objetos 3D.
+    Recuerde esta es un ejemplo de visualización de modelos 3D.
   </p>
 <h1></h1>
