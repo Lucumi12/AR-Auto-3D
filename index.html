@@ -5,6 +5,8 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+  <div class="title" id="annotation">AR Auto 3D</div>
+  <div class="subtitle" id="annotation">Planos</div>
 <model-viewer
   bounds="tight"
   src="./modelo/auto.glb"
@@ -77,15 +79,11 @@
   <button slot="ar-button" id="ar-button">
     View in your space
   </button>
-  <button slot="hotspot-foot" data-position="0.16 0.1 0.17" data-normal="-0.07 0.97 0.23"
-    data-visibility-attribute="visible"></button>
-  <div id="annotation"><H1>AR Auto 3D</H1></div><div id="ar-prompt">
-    <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-  </div>
 </model-viewer>
+<div id="ar-prompt">
+  <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
+</div>
   <!-- Loads <model-viewer> for browsers: -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
-
 </body>
-
 </html>

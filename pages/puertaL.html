@@ -7,6 +7,8 @@
 </head>
 <body>
   <!-- Carrocería model-->
+  <div class="title" id="annotation">AR Auto 3D</div>
+  <div class="subtitle" id="annotation">Puerta</div>
   <model-viewer
     bounds="tight"
     enable-pan src="../modelo/puertaL.glb"
@@ -26,11 +28,10 @@
     <button slot="ar-button" id="ar-button">
       View in your space
     </button>
+  </model-viewer>
     <div id="ar-prompt">
       <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
     </div>
-  </model-viewer>
-
   <!-- Loads <model-viewer> for browsers: -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
 </body>
