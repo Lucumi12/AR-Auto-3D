@@ -24,7 +24,7 @@
 <h2 align="center">Pages</h2>
   <p align="center">
     <a href="https://cjcorpdev.github.io/AR-Auto-3D/" target="_blank" rel="modelviewer">
-      <img src="https://i.imgur.com/LREOluk.png" alt="" width="50" height="50"/>
-   - AR Auto 3D</a>
+      <img src="https://i.imgur.com/aBOef08.gif" alt="" width="50%" height="50%"/>
+   <br>- AR Auto 3D -</a>
   </p>
 <h1></h1>
