@@ -1,4 +1,6 @@
-
+:not(:defined)>* {
+  display: none;
+}
 
 body {
   margin: 0;
