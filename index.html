@@ -1,89 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <title>Auto 3D</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
+
 <body>
-  <div class="title" id="annotation">AR Auto 3D</div>
-  <div class="subtitle" id="annotation">Planos</div>
-<model-viewer
-  bounds="tight"
-  src="./modelo/auto.glb"
-  ar ar-modes="scene-viewer webxr quick-look"
-  camera-controls
-  environment-image="neutral"
-  shadow-intensity="2"
-  camera-orbit="-83.81deg 91.09deg auto"
-  auto-rotate
-  xr-environment>
-  <button slot="ar-button"
-    style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
-    👋 Activate AR
-  </button>
-  <button  class="Hotspot" slot="hotspot-1"
-    data-position="-0.023340055599555355m 1.5058154687311953m 0.16602021502779427m"
-    data-normal="-0.0021760614208777007m 0.7561627683644857m 0.654379960341123m" data-visibility-attribute="visible"
-    onclick="location.href='./pages/interior.html'">
-    <div class="HotspotAnnotation">Interior</div>
-  </button><button class="Hotspot" slot="hotspot-2"
-    data-position="0.04505875151060429m 0.9339437858096389m 1.3002710008501313m"
-    data-normal="-3.4694469519536134e-18m 0.973761998988188m 0.22756882327447223m" data-visibility-attribute="visible"
-    onclick="location.href='./pages/carroceria.html'">
-    <div class="HotspotAnnotation">Carrocería</div>
-  </button><button class="Hotspot" slot="hotspot-3"
-    data-position="0.9138505708865008m 0.7150449933153493m -0.11513861179102208m"
-    data-normal="0.9999996780154348m -0.0007723948258653193m -0.00021765858543276728m"
-    data-visibility-attribute="visible"
-    onclick="location.href='./pages/puertaL.html'">
-    <div class="HotspotAnnotation">PuertaL</div>
-  </button><button class="Hotspot" slot="hotspot-4"
-    data-position="0.9057734159192649m 0.316550727708345m 1.0816356257898954m"
-    data-normal="0.9999999999999911m 0m -1.3435886109247622e-7m" data-visibility-attribute="visible"
-    onclick="location.href='./pages/llanta.html'">
-    <div class="HotspotAnnotation">Llanta L1</div>
-  </button><button class="Hotspot" slot="hotspot-5"
-    data-position="0.9057734131834546m 0.31967477763032814m -1.2510502748021997m"
-    data-normal="0.9999999999999911m 0m -1.3435886109247622e-7m" data-visibility-attribute="visible"
-    onclick="location.href='./pages/llanta.html'">
-    <div class="HotspotAnnotation">Llanta L2</div>
-  </button><button class="Hotspot" slot="hotspot-22"
-    data-position="-0.9138376712799062m 0.6960691756634316m -0.14370637410622766m" data-normal="-1m 0m 0m"
-    data-visibility-attribute="visible"
-    onclick="location.href='./pages/puertaR.html'">
-    <div class="HotspotAnnotation">Puerta R</div>
-  </button><button class="Hotspot" slot="hotspot-23"
-    data-position="-0.9057733792862135m 0.32936598566031217m 1.0682158870003413m"
-    data-normal="-0.9999999999999911m 0m 1.3435886109247622e-7m" data-visibility-attribute="visible"
-    onclick="location.href='./pages/llanta.html'">
-    <div class="HotspotAnnotation">Llanta R1</div>
-  </button><button class="Hotspot" slot="hotspot-25"
-    data-position="-0.9057733796173607m 0.32311328158393304m -1.246572570469719m"
-    data-normal="-0.9999999999999911m 0m 1.3435886109247622e-7m" data-visibility-attribute="visible"
-    onclick="location.href='./pages/llanta.html'">
-    <div class="HotspotAnnotation">Llanta R2</div>
-  </button><button class="Hotspot" slot="hotspot-26"
-    data-position="0.0018875176560619045m 1.4206819342444186m -1.5419322732141258m"
-    data-normal="0m 0.46244964390373433m -0.8866455474727819m" data-visibility-attribute="visible"
-    onclick="location.href='./pages/vidrios.html'">
-    <div class="HotspotAnnotation">Vidrios</div>
-  </button><button class="Hotspot" slot="hotspot-27"
-    data-position="0.023541891136716953m 0.683929287546276m -1.7621184587478638m" data-normal="0m 0m -1m"
-    data-visibility-attribute="visible"
-    onclick="location.href='./pages/placa.html'">
-    <div class="HotspotAnnotation">Placa</div>
-  </button>
-  <div class="progress-bar hide" slot="progress-bar">
-    <div class="update-bar"></div>
+  <div class="title" id="annotation">AR AUTO 3D</div>
+  <div class="subtitle" id="annotation">PLANOS</div>
+  <model-viewer bounds="tight" src="./modelo/auto.glb" ar ar-modes="scene-viewer webxr quick-look" camera-controls
+    environment-image="neutral" shadow-intensity="2" camera-orbit="-83.81deg 91.09deg auto" auto-rotate xr-environment>
+    <button slot="ar-button"
+      style="background-color: white; border-radius: 4px; border: none; position: absolute; top: 16px; right: 16px; ">
+      👋 Activate AR
+    </button>
+    <button class="Hotspot" slot="hotspot-1"
+      data-position="-0.023340055599555355m 1.5058154687311953m 0.16602021502779427m"
+      data-normal="-0.0021760614208777007m 0.7561627683644857m 0.654379960341123m" data-visibility-attribute="visible"
+      onclick="location.href='./pages/interior.html'">
+      <div class="HotspotAnnotation">INTERIOR</div>
+    </button><button class="Hotspot" slot="hotspot-2"
+      data-position="0.04505875151060429m 0.9339437858096389m 1.3002710008501313m"
+      data-normal="-3.4694469519536134e-18m 0.973761998988188m 0.22756882327447223m" data-visibility-attribute="visible"
+      onclick="location.href='./pages/carroceria.html'">
+      <div class="HotspotAnnotation">CARROCERIA</div>
+    </button><button class="Hotspot" slot="hotspot-3"
+      data-position="0.9138505708865008m 0.7150449933153493m -0.11513861179102208m"
+      data-normal="0.9999996780154348m -0.0007723948258653193m -0.00021765858543276728m"
+      data-visibility-attribute="visible" onclick="location.href='./pages/puertaL.html'">
+      <div class="HotspotAnnotation">PUERTA L</div>
+    </button><button class="Hotspot" slot="hotspot-4"
+      data-position="0.9057734159192649m 0.316550727708345m 1.0816356257898954m"
+      data-normal="0.9999999999999911m 0m -1.3435886109247622e-7m" data-visibility-attribute="visible"
+      onclick="location.href='./pages/llanta.html'">
+      <div class="HotspotAnnotation">LLANTA L1</div>
+    </button><button class="Hotspot" slot="hotspot-5"
+      data-position="0.9057734131834546m 0.31967477763032814m -1.2510502748021997m"
+      data-normal="0.9999999999999911m 0m -1.3435886109247622e-7m" data-visibility-attribute="visible"
+      onclick="location.href='./pages/llanta.html'">
+      <div class="HotspotAnnotation">LLANTA L2</div>
+    </button><button class="Hotspot" slot="hotspot-22"
+      data-position="-0.9138376712799062m 0.6960691756634316m -0.14370637410622766m" data-normal="-1m 0m 0m"
+      data-visibility-attribute="visible" onclick="location.href='./pages/puertaR.html'">
+      <div class="HotspotAnnotation">PUERTA R</div>
+    </button><button class="Hotspot" slot="hotspot-23"
+      data-position="-0.9057733792862135m 0.32936598566031217m 1.0682158870003413m"
+      data-normal="-0.9999999999999911m 0m 1.3435886109247622e-7m" data-visibility-attribute="visible"
+      onclick="location.href='./pages/llanta.html'">
+      <div class="HotspotAnnotation">LLANTA R1</div>
+    </button><button class="Hotspot" slot="hotspot-25"
+      data-position="-0.9057733796173607m 0.32311328158393304m -1.246572570469719m"
+      data-normal="-0.9999999999999911m 0m 1.3435886109247622e-7m" data-visibility-attribute="visible"
+      onclick="location.href='./pages/llanta.html'">
+      <div class="HotspotAnnotation">LLANTA R2</div>
+    </button><button class="Hotspot" slot="hotspot-26"
+      data-position="0.0018875176560619045m 1.4206819342444186m -1.5419322732141258m"
+      data-normal="0m 0.46244964390373433m -0.8866455474727819m" data-visibility-attribute="visible"
+      onclick="location.href='./pages/vidrios.html'">
+      <div class="HotspotAnnotation">VIDRIOS</div>
+    </button><button class="Hotspot" slot="hotspot-27"
+      data-position="0.023541891136716953m 0.683929287546276m -1.7621184587478638m" data-normal="0m 0m -1m"
+      data-visibility-attribute="visible" onclick="location.href='./pages/placa.html'">
+      <div class="HotspotAnnotation">PLACA</div>
+    </button>
+    <div class="progress-bar hide" slot="progress-bar">
+      <div class="update-bar"></div>
+    </div>
+  </model-viewer>
+  <div id="footer" class="contenedor-footer">
+    <div class="contenedor-footer-btn">
+      <div class="footer-btn"><a class="btn-footer" href="#footer"><i class="fa-solid fa-angle-down"></i></a></div>
+    </div>
+    <div class="footer-creditos">
+      <h2 class="text-title-creditos">HECHO POR:</h2>
+      <div class="contenedor-avatar">
+        <div class="avatar-dcdev"><a class="btn-credits" href="https://lucumi.tk"><i class="fa-solid fa-user-astronaut"></i> Lucumi.tk</a></div>
+        <div class="avatar-lucumi"><a class="btn-credits" href="https://dcdev.tk"><i class="fa-solid fa-user-secret"></i> DcDev</a></div>
+      </div>
+    </div>
   </div>
-  <button slot="ar-button" id="ar-button">
-    View in your space
-  </button>
-</model-viewer>
-<div id="ar-prompt">
-  <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-</div>
   <!-- Loads <model-viewer> for browsers: -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script src="https://kit.fontawesome.com/2d7352cdc9.js" crossorigin="anonymous"></script>
 </body>
+
 </html>

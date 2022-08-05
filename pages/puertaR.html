@@ -4,10 +4,10 @@
   <title>Llanta - Auto</title>
   <link rel="stylesheet" href="../css/style.css">
 </head>
-<body>
+<body class="body-glass">
   <!-- Carrocería model-->
-  <div class="title" id="annotation">AR Auto 3D</div>
-  <div class="subtitle" id="annotation">Puerta</div>
+  <div class="title" id="annotation">AR AUTO 3D</div>
+  <div class="subtitle" id="annotation">PUERTA</div>
   <model-viewer
     bounds="tight"
     enable-pan src="../modelo/puertaR.glb"
@@ -21,19 +21,16 @@
       data-normal="-0.9999996778893888m -0.0007725460081551923m -0.00021770113497169235m"
       data-visibility-attribute="visible"
       onclick="location.href='../index.html'">
-      <div class="HotspotAnnotation">Regresar</div>
+      <div class="HotspotAnnotation"><i class="fa-solid fa-caret-left"></i> REGRESAR</div>
     </button>
     <div class="progress-bar hide" slot="progress-bar">
       <div class="update-bar"></div>
     </div>
-    <button slot="ar-button" id="ar-button">
-      View in your space
-    </button>
+
   </model-viewer>
-  <div id="ar-prompt">
-    <img src="https://modelviewer.dev/shared-assets/icons/hand.png">
-  </div>
+
   <!-- Loads <model-viewer> for browsers: -->
   <script type="module" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js"></script>
+  <script src="https://kit.fontawesome.com/2d7352cdc9.js" crossorigin="anonymous"></script>
 </body>
 </html>
